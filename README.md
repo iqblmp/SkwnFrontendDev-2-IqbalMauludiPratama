@@ -1,15 +1,7 @@
-# next-template
-
+# Next Template
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-## Usage
-
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
-
 ## Features
-
 - Next.js 13 App Directory
 - Radix UI Primitives
 - Tailwind CSS
@@ -17,6 +9,31 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
 
-## License
+## Prerequisites
+- Node.js (v16.x or higher)
+- npm or yarn
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+## Installation
+1. Install dependencies:
+  ```bash
+  npm install
+  # or
+  yarn install
+  ```
+
+2. Start the server:
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
+
+## Deployment
+Build the application for production:
+
+```bash
+npm run build
+```
+
+## Live Demo
+[iqblmp-finance.vercel.app](https://iqblmp-finance.vercel.app)
